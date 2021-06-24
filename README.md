@@ -8,7 +8,7 @@ This is the 1802 processor card for the [1802/Mini](https://github.com/dmadole/1
 * Eight  indicator LEDS with selectable polarity for each
 * TTL level port with Q and selectable EF pin for soft serial
 * Transmit and receive polarity selectable on serial port
-* Designed for 4 Mhz butcan run 8Mhz with suitable processor
+* Designed for 4 Mhz but can run 8Mhz with suitable processor
 * Stable power-on reset circuit is jumper-selectable
 * Convenient mini-USB connector for 5 volt power input
 * Form factor allows stacking or backplane by connector choice
