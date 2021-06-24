@@ -11,7 +11,9 @@ This is the 1802 processor card for the 1802/Mini system. It supports the follow
 * Designed for 4 Mhz butcan run 8Mhz with suitable processor
 * Stable power-on reset circuit is jumper-selectable
 * Convenient mini-USB connector for 5 volt power input
+* Form factor allows stacking or backplane by connector choice
 * Configurable to be able to run most "Classic Elf" software
+* Highly annoted silkscreen documents most settings and pins
 
-(1802/Mini Processor Front)(https://github.com/dmadole/1802-Mini-Processor/photos/1802-Mini-Processor-Rev-C-Assembled-Front.jpg)
-(1802/Mini Processor Front)(https://github.com/dmadole/1802-Mini-Processor/photos/1802-Mini-Processor-Rev-C-Assembled-Back.jpg)
+![1802/Mini Processor Front](https://github.com/dmadole/1802-Mini-Processor/blob/main/photos/1802-Mini-Processor-Rev-C-Assembled-Front.jpg)
+![1802/Mini Processor Back](https://github.com/dmadole/1802-Mini-Processor/blob/main/photos/1802-Mini-Processor-Rev-C-Assembled-Back.jpg)
