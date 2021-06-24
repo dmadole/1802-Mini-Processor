@@ -1,5 +1,5 @@
 # 1802-Mini-Processor
-This is the 1802 processor card for the 1802/Mini system. It supports the following features:
+This is the 1802 processor card for the (1802/Mini)[https://github.com/dmadole/1802-Mini] system. It supports the following features:
 
 * CDP1802, CDP1804 (A only), CDP1805, or CDP1806 processors
 * 64K of memory in two 32K RAM, EPROM, or EEPROM devices
