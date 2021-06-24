@@ -18,5 +18,7 @@ This is the 1802 processor card for the [1802/Mini](https://github.com/dmadole/1
 
 Gerber files for the PCBs and PDF schematics can be found in [Releases](https://github.com/dmadole/1802-Mini-Processor/releases).
 
+BOMS and any applicable errata or other notes can be found in [notes](https://github.com/dmadole/1802-Mini-Processor/tree/main/notes).
+
 ![1802/Mini Processor Front](https://github.com/dmadole/1802-Mini-Processor/blob/main/photos/1802-Mini-Processor-Rev-C-Assembled-Front.jpg)
 ![1802/Mini Processor Back](https://github.com/dmadole/1802-Mini-Processor/blob/main/photos/1802-Mini-Processor-Rev-C-Assembled-Back.jpg)
