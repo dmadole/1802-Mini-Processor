@@ -16,5 +16,7 @@ This is the 1802 processor card for the [1802/Mini](https://github.com/dmadole/1
 * Configurable to be able to run most "Classic Elf" software
 * Highly annoted silkscreen documents most settings and pins
 
+Gerber files for the PCBs and PDF schematics can be found in [Releases](https://github.com/dmadole/1802-Mini-Processor/releases).
+
 ![1802/Mini Processor Front](https://github.com/dmadole/1802-Mini-Processor/blob/main/photos/1802-Mini-Processor-Rev-C-Assembled-Front.jpg)
 ![1802/Mini Processor Back](https://github.com/dmadole/1802-Mini-Processor/blob/main/photos/1802-Mini-Processor-Rev-C-Assembled-Back.jpg)
