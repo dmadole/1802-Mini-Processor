@@ -12,6 +12,7 @@ This is the 1802 processor card for the [1802/Mini](https://github.com/dmadole/1
 * Stable power-on reset circuit is jumper-selectable
 * Convenient mini-USB connector for 5 volt power input
 * Form factor allows stacking or backplane by connector choice
+* Can run totally standalone or expanded with additional cards
 * Configurable to be able to run most "Classic Elf" software
 * Highly annoted silkscreen documents most settings and pins
 
