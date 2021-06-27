@@ -4,6 +4,8 @@ Follow usual assembly practices, which I will not document here. I recommend ins
 
 There are a lot of options on this board and it's important to make sure all of them have been selected correctly. Some options are selected with jumpers on the front of the board, and some by bridging solder pads on the back of the board. The board will not work as expected without nearly all options selected one way or the other.
 
+Please see any [applicable errata](https://github.com/dmadole/1802-Mini-Processor/tree/main/notes) before assembling.
+
 ## LED Installation and Jumpering
 
 The LEDs can be individually selected for polarity, that is, whether they light on a high or low signal. For all the LEDs except Q, this selection is made by a combination of orientation the LED is installed in, and a solder pad on the back which must be bridged to match. See the legends on either side of the LED area on the back silkscreen for proper alignment and bridging. The Q LED is always installed the same way as shown on the back silscreen, and the selection of lighting on high or low is made by a jumper on the front of the board.
