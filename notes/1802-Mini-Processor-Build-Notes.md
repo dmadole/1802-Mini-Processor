@@ -35,3 +35,9 @@ The normal RX and TX jumper settings for use with typical 5 volt level serial in
 ## Lead Trimming
 
 I like to cut all the pins on the back of the board, even the IC sockets, so they are tight with the solder. This can help with clearance on stacked boards, especially with a metal can oscillator. I then also sand over the surface lightly with an emery board to even them a little and remove sharp edges. Of course if you take this latter step, you will need to clean the board well after and be careful since the dust is conductive and probably contains lead, depending on your materials.
+
+## Jumper Settings
+
+The following are the recommended jumper settings for use with Elf/OS. These assume 32K RAM in low memory from 0000-7FFF and 32K EEPROM in high memory from 8000-FFFF, use of EF2 for serial input, and startup from ROM. These give compatibility with software intended for the Pico/Elf and so is most convenient for use with software for Elf/OS.
+
+![1802 Mini Processor Jumpers](https://github.com/dmadole/1802-Mini-Processor/blob/main/photos/1802-mini-processor-jumpers-elfos.jpg)
