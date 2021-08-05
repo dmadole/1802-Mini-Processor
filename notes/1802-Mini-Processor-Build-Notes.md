@@ -12,6 +12,8 @@ The LEDs can be individually selected for polarity, that is, whether they light 
 
 I prefer installing the LEDs so they light on an "active" state which means light on high for SC0 and SC1, and light on low for the other signals. This will also minimize the number of LEDs lit during normal run state, and hence minimize the power consumption. If you are planning on using with a front panel card, I recommend installing the LEDs with half-inch standoffs, otherwise they can be mounted flush to the board.
 
+Note that the optimal current-limiting resistor values will vary depending on what color and part number of LED is installed and the 470 ohm value printed on the silkscreen is just a typical average value. You may want to adjust the resistors to suit the particular LEDs that are used. The bill of materials suggests some specific LEDs and corresponding resistor values that I like for those particular LEDs. If you choose to use the same ones, use the component references on the bill of material for placement of those (1.5K for red, 1K for orange, 270 for yellow, and 10 for green) and disregard the generic silkscreen value.
+
 ## Clock Selection and Jumpering
 
 The 1802/Mini is designed for a 4 Mhz clock based on the most pessimistic assumptions about component timing. Typical ICs will easily run at 6 Mhz or higher and with the right processor and other optimal parts the board will run at 8 Mhz or more. It may be desirable to socket the oscillator so it can be changed. An oscillator socket can be made from a typical  14 pin socket by pushing up the extra pins from below and removing them. It is important to put jumpers on the clock port connector on pins 1-2 and 4-5, the board will not work without these.
