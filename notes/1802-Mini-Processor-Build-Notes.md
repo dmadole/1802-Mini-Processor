@@ -45,3 +45,7 @@ I like to cut all the pins on the back of the board, even the IC sockets, so the
 The following are the recommended jumper settings for use with Elf/OS. These assume 32K RAM in low memory from 0000-7FFF and 32K EEPROM in high memory from 8000-FFFF, use of EF2 for serial input, and startup from ROM. These give compatibility with software intended for the Pico/Elf and so is most convenient for use with software for Elf/OS.
 
 ![1802 Mini Processor Jumpers](https://github.com/dmadole/1802-Mini-Processor/blob/main/photos/1802-mini-processor-jumpers-elfos-2.jpg)
+
+If you are using an 1802/Mini specific build of Elf/OS BIOS that supports the 1854 UART with auto-detection of which port to use, you will want to set the RX GND jumper instead of RX VCC. This allows the BIOS to detect on EF2 when no cable is connected. Note that this does prevent EF2 from being used for anything else. This firmware is here:
+
+https://github.com/dmadole/1802-Mini/tree/master/firmware
